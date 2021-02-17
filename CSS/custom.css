@@ -16,3 +16,13 @@
     background-color: #596488;
     border-color: #596488;
 }
+
+.btn-outline-secondary {
+    color: #97a4af;
+    border-color: #bcc8d3;
+}
+.btn-outline-secondary:hover {
+    color: #000;
+    background-color: #a9b5c0;
+    border-color: #98a3ad;
+}
