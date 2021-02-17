@@ -31,3 +31,12 @@
     background-color: #a9b5c0;
     border-color: #98a3ad;
 }
+
+.bg-button-main {
+    background-color: #596488;
+}
+
+#bg-title-dark {
+    background-color: #424e75;
+    color: #fefefe;
+}
