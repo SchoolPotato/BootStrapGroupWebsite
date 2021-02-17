@@ -1,0 +1,8 @@
+@font-face {
+    font-family: GameCube;
+    src: url(Fonts/GamecubenDualset-L85D.ttf);
+}
+
+.gamecube {
+    font-family: GameCube;
+}
