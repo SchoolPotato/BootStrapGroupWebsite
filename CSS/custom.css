@@ -7,6 +7,11 @@
     font-family: GameCube;
 }
 
+.theme-button {
+    background-color: #424e75;
+    color: #fefefe;
+}
+
 .btn-outline-success {
     color: #596488;
     border-color: #596488;
