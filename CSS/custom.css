@@ -6,3 +6,8 @@
 .gamecube {
     font-family: GameCube;
 }
+
+.theme-button {
+    background-color: #424e75;
+    color: #fefefe;
+}
