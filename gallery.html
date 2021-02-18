@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
     <title>Gallery</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="CSS/custom.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="Images/gamecube-favicon.png">
 </head>
-<body> 
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="JS/javascript.js"></script>
+
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
@@ -24,8 +27,48 @@
             </div>
           </div>
         </div>
-      </nav>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </nav>
+    
+    <!-- Image Carousel -->
+    <div class="container">
+        <img class="centered-image gamecube-history-logo p-2" src="Images/gamecube-logo.png">
+        <div id="gamecubeCarousel" class="carousel carousel-dark slide" data-bs-ride="false" >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/gc1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gc2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gc3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gc4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gc5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gc6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gc7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gc8.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p class="text-center ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis quae facilis quis autem dicta ducimus ullam voluptate aliquam quia amet necessitatibus accusamus adipisci eligendi dignissimos ratione consectetur corrupti quisquam quidem optio excepturi, deserunt voluptatum. Aspernatur ipsam nisi voluptatem vero consectetur sunt excepturi, tempore explicabo accusantium ratione ad ullam repudiandae incidunt, quidem nesciunt non sed quae, corrupti facilis! Deserunt asperiores nesciunt vero nobis itaque at in repellendus quod aliquam possimus, quam odit voluptatum dignissimos ullam quasi pariatur labore sunt fugiat debitis veniam repudiandae? Atque excepturi eum praesentium a eligendi eveniet repudiandae omnis dolore voluptate voluptates, deleniti, earum quia accusamus corrupti ad assumenda optio debitis, totam voluptatum dolores perspiciatis quos! Pariatur sed assumenda illum dolores suscipit provident aperiam reiciendis minima quam blanditiis qui eius dolor ipsam, delectus harum eaque placeat itaque debitis, reprehenderit et quasi non? Ullam laudantium reiciendis molestias? Fugit et perspiciatis expedita quibusdam commodi corporis deleniti recusandae libero, amet odio suscipit! Natus maiores reiciendis iste aspernatur amet. Cum similique dicta debitis praesentium maiores, voluptas temporibus quos sint ipsum enim modi nesciunt ab illo rerum quam nostrum asperiores quia non aut. Reiciendis molestiae harum nostrum deleniti optio earum tempore at officiis incidunt. Incidunt libero, id consectetur reprehenderit ducimus amet voluptate.</p>
+    </div>
 </body>
 </html>
