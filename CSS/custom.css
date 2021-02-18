@@ -58,3 +58,13 @@
     margin: auto auto auto auto;
     line-height: 1.5rem;
 }
+
+#historyPara2 {
+    max-width: 95%;
+    display: block;
+    margin: auto auto auto auto;
+}
+
+#imageSection1 {
+    background-color: #cad8e4;
+}
