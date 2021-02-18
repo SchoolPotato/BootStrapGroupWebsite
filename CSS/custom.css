@@ -11,6 +11,10 @@
     background-color: #424e75;
     color: #fefefe;
 }
+.theme-button:hover {
+    background-color: #596488;
+    color: #fefefe;
+}
 
 .btn-outline-success {
     color: #596488;
