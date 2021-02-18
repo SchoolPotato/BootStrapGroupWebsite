@@ -2,6 +2,10 @@
     font-family: GameCube;
     src: url(Fonts/GamecubenDualset-L85D.ttf);
 }
+@font-face {
+    font-family: Neon;
+    src: url(Fonts/NEON____.ttf);
+}
 
 .gamecube {
     font-family: GameCube;
@@ -67,4 +71,61 @@
 
 #imageSection1 {
     background-color: #cad8e4;
+}
+
+nav {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+nav#retro {
+    border-radius: 0rem;
+    background-image: url(../Images/brick-texture-gradient.png);
+    background-size: 6rem;
+}
+nav#retro > div > a#navbar-retro {
+    color: #FF4B8E;
+    text-shadow: 0rem 0rem 0.7rem rgba(255, 75, 142, 1);
+}
+
+body#retro {
+    background-image: url(../Images/arcade-carpet.png);
+    color: white;
+}
+
+div#retro {
+    background-color: #323232;
+    color: white;
+}
+
+h3#retro1 {
+    color: #FF4B8E;
+    text-shadow: 0rem 0rem 0.7rem rgba(255, 75, 142, 1);
+    font-family: Neon;
+    font-size: 300%;
+    /*margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 21.5rem;
+    background-color: rgba(255, 75, 141, 0.356);*/
+}
+
+h3#retro2 {
+    color: #00ff4c;
+    text-shadow: 0rem 0rem 0.9rem rgba(0, 255, 76, 1);
+    font-family: Neon;
+    font-size: 300%;
+}
+
+#neon1 {
+    color: #FF4B8E;
+    text-shadow: 0rem 0rem 0.9rem rgba(255, 75, 142, 1);
+}
+
+#neon2 {
+    color: rgba(0, 255, 76, 0.5);
+}
+
+#neon3 {
+    color: rgba(61, 255, 229, 0.5);
 }
