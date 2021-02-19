@@ -77,15 +77,19 @@
     background-color: #cad8e4;
 }
 
-nav {
+nav, nav#fixed {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    position: sticky;
+    top:0;
 }
 
 nav#retro {
     border-radius: 0rem;
     background-image: url(../Images/brick-texture-gradient.png);
     background-size: 6rem;
+    position: sticky;
+    top:0;
 }
 nav#retro > div > a#navbar-retro {
     color: #FF4B8E;
@@ -127,13 +131,13 @@ h3#retro2 {
 }
 
 #neon2 {
-    color: rgba(0, 255, 76, 0.5);
+    color: rgba(0, 255, 76, 0.3);
 }
 
 #neon3 {
-    color: rgba(61, 255, 229, 0.5);
+    color: rgba(61, 255, 229, 0.3);
 }
 
-    #nav-text-dark{
+#nav-text-dark{
     color: #000;
 }
