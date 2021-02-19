@@ -8,12 +8,12 @@
     <link href="CSS/custom.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="Images/gamecube-favicon.png">
 </head>
-<body>
+<body id="history">
     <nav id="fixed" class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container-fluid">
           <a id="navbar-retro" class="navbar-brand" href="index.html">
             <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
-            <span class="gamecube">GAMECUBE</span>
+            <span class="gamecube" id="modern-gamecube1">GAMECUBE</span>
         </a>
           <div class="navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -22,13 +22,13 @@
               <a id="modern3" class="nav-link" href="gallery.html">Gallery</a>
             </div>
             <form class="container-fluid justify-content-start">
-              <button class="btn btn-outline-success me-2" type="button" onclick="retroTheme();">Theme Toggle</button>
+              <button class="btn btn-outline-success me-2" type="button" onclick="retroThemeHistory();">Theme Toggle</button>
             </form>
           </div>
         </div>
       </nav>
 
-    <input id="logo" type="image" class="centered-image gamecube-history-logo" src="Images/gamecube-logo.png" onclick="retroTheme();">
+    <input id="logo" type="image" class="centered-image gamecube-history-logo" src="Images/gamecube-logo.png" onclick="retroThemeHistory();">
   <br>
   <h5 class="text-center" id="historyPara1">In 1997, a graphics hardware design company called ArtX was launched, staffed by twenty engineers who had previously worked at SGI on the design of the Nintendo 64's graphics hardware. The team was led by Dr. Wei Yen, who had been SGI's head of Nintendo Operations, the department responsible for the Nintendo 64's fundamental architectural design. This is a brief history of the development of the Nintendo GameCube, as well as ArtX's involvement in it.</h5>
 
@@ -70,7 +70,28 @@
       <br>
       The Triforce arcade board is a joint development between Nintendo, Namco, and Sega, based on the Gamecube's design. Its games include Mario Kart Arcade GP and F-Zero AX.</p>
     </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <nav id="regular" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a id="navbar-retro" class="navbar-brand" href="index.html">
+            <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
+            <span class="gamecube" id="modern-gamecube2">GAMECUBE</span>
+        </a>
+          <div class="col-sm-3">
+          <button class="btn theme-button"disabled>
+            Follow Us on Social Media
+          </button>
+          <button type="button" class="btn theme-button">
+            Notifications
+          </button>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <script src="JS/main.js"></script>
 </body>
 </html>
