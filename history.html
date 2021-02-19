@@ -8,33 +8,33 @@
     <link href="CSS/custom.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="Images/gamecube-favicon.png">
 </head>
-<body>
+<body id="history">
     <nav id="fixed" class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container-fluid">
           <a id="navbar-retro" class="navbar-brand" href="index.html">
             <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
-            <span class="gamecube">GAMECUBE</span>
+            <span class="gamecube" id="modern-gamecube1">GAMECUBE</span>
         </a>
           <div class="navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a id="modern2" class="nav-link" aria-current="page" href="index.html">Home</a>
-              <a id="modern1" class="nav-link fs-5" id="nav-text-dark" href="history.html">History</a>
+              <a id="nav-text-dark" class="nav-link fs-5 text-black" href="history.html">History</a>
               <a id="modern3" class="nav-link" href="gallery.html">Gallery</a>
             </div>
             <form class="container-fluid justify-content-start">
-              <button class="btn btn-outline-success me-2" type="button" onclick="retroTheme();">Theme Toggle</button>
+              <button class="btn btn-outline-success me-2" type="button" onclick="retroThemeHistory();">Theme Toggle</button>
             </form>
           </div>
         </div>
       </nav>
 
-    <input id="logo" type="image" class="centered-image gamecube-history-logo" src="Images/gamecube-logo.png" onclick="retroTheme();">
+    <input id="logo" type="image" class="centered-image gamecube-history-logo" src="Images/gamecube-logo.png" onclick="retroThemeHistory();">
   <br>
   <h5 class="text-center" id="historyPara1">In 1997, a graphics hardware design company called ArtX was launched, staffed by twenty engineers who had previously worked at SGI on the design of the Nintendo 64's graphics hardware. The team was led by Dr. Wei Yen, who had been SGI's head of Nintendo Operations, the department responsible for the Nintendo 64's fundamental architectural design. This is a brief history of the development of the Nintendo GameCube, as well as ArtX's involvement in it.</h5>
 
   <hr>
   <br>
-  <div>
+  <div class="container-fluid">
     <h3 id="modernHeader1" class="gamecube text-center">DEVELOPMENT</h3>
     <p id="historyPara2">Partnering with Nintendo in 1998, ArtX began the complete design of the system logic and of the graphics processor (codenamed "Flipper") of Nintendo's sixth-generation video game console. The console project had a succession of codenames: N2000, Star Cube, and Nintendo Advance. At Nintendo's press conference in May 1999, the console was first publicly announced as "Project Dolphin", the successor to the Nintendo 64. Subsequently, Nintendo began providing development kits to game developers such as Rare and Retro Studios. Nintendo also formed a strategic partnership with IBM, who created the Dolphin's CPU, named "Gekko".</p>
 
@@ -70,7 +70,10 @@
       <br>
       The Triforce arcade board is a joint development between Nintendo, Namco, and Sega, based on the Gamecube's design. Its games include Mario Kart Arcade GP and F-Zero AX.</p>
     </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <br>
+    <br>
+    <br>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <script src="JS/main.js"></script>
 
   <footer>

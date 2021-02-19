@@ -82,14 +82,17 @@
 }
 
 nav, nav#fixed {
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
     position: sticky;
     top: 0;
     z-index: 400;
 }
 
-nav#retro {
+nav#fixed {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+nav#retro1 {
     border-radius: 0rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0)), url(../Images/brick-texture.png);
     background-size: 6rem;
@@ -99,6 +102,19 @@ nav#retro {
 nav#retro > div > a#navbar-retro {
     color: #FF4B8E;
     text-shadow: 0rem 0rem 0.7rem rgba(255, 75, 142, 1);
+}
+
+#retro-gamecube1, #retro-gamecube2{
+    color: #FF4B8E;
+    text-shadow: 0rem 0rem 0.9rem rgba(255, 75, 142, 1);
+}
+
+nav#retro2 {
+    border-radius: 0rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0)), url(../Images/brick-texture.png);
+    background-size: 6rem;
+    position: sticky;
+    top:0;
 }
 
 body#retro {
