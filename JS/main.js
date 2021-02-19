@@ -7,7 +7,7 @@ if(document.getElementsByTagName("body")[0].id == "history"){
     var navbar = document.getElementsByTagName("nav")[0];
     var footer = document.getElementsByTagName("nav")[1];
     var logo = document.getElementById("logo");
-    var navbarLink1 = document.getElementById("modern1");
+    var navbarLink1 = document.getElementById("nav-text-dark");
     var navbarLink2 = document.getElementById("modern2");
     var navbarLink3 = document.getElementById("modern3");
     var gamecubeText1 = document.getElementById("modern-gamecube1");
@@ -21,6 +21,9 @@ if(document.getElementsByTagName("body")[0].id == "home"){
     var navbar = document.getElementsByTagName("nav")[0];
     var footer = document.getElementsByTagName("nav")[1];
     var logo = document.getElementById("logo");
+    var navbarLink1 = document.getElementById("nav-text-dark");
+    var navbarLink2 = document.getElementById("modern2");
+    var navbarLink3 = document.getElementById("modern3");
 }
 //Get all the elements I want to change on the Gallery page
 if(document.getElementsByTagName("body")[0].id == "gallery"){
@@ -30,6 +33,9 @@ if(document.getElementsByTagName("body")[0].id == "gallery"){
     var navbar = document.getElementsByTagName("nav")[0];
     var footer = document.getElementsByTagName("nav")[1];
     var logo = document.getElementById("logo");
+    var navbarLink1 = document.getElementById("nav-text-dark");
+    var navbarLink2 = document.getElementById("modern2");
+    var navbarLink3 = document.getElementById("modern3");
 }
 
 
@@ -59,7 +65,7 @@ function retroThemeHistory(){
         navbar.id = "fixed"
         footer.id = "regular"
         logo.setAttribute("src", "Images/gamecube-logo.png");
-        navbarLink1.id = "modern1";
+        navbarLink1.id = "nav-text-dark";
         navbarLink2.id = "modern2";
         navbarLink3.id = "modern3";
         gamecubeText1.id = "modern-gamecube1";
