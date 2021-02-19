@@ -2,51 +2,14 @@
     font-family: GameCube;
     src: url(Fonts/GamecubenDualset-L85D.ttf);
 }
-@font-face {
-    font-family: Neon;
-    src: url(Fonts/NEON____.ttf);
-}
 
 .gamecube {
     font-family: GameCube;
 }
 
-.theme-button {
-    background-color: #424e75;
-    color: #fefefe;
-}
-.theme-button:hover {
-    background-color: #596488;
-    color: #fefefe;
-}
-
-.btn-outline-success {
-    color: #596488;
-    border-color: #596488;
-}
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #596488;
-    border-color: #596488;
-}
-
-.btn-outline-secondary {
-    color: #97a4af;
-    border-color: #bcc8d3;
-}
-.btn-outline-secondary:hover {
-    color: #000;
-    background-color: #a9b5c0;
-    border-color: #98a3ad;
-}
-
-.bg-button-main {
-    background-color: #596488;
-}
-
-#bg-title-dark {
-    background-color: #424e75;
-    color: #fefefe;
+.gamecube-history-logo {
+    margin-top: 1rem;
+    max-width: 10rem;
 }
 
 .centered-image {
@@ -55,94 +18,22 @@
     margin-right: auto;
 }
 
-.gamecube-history-logo {
-    margin-top: 1rem;
-    max-width: 10rem;
+p {
+    color: black;
+    font-size: 1.2rem;
 }
 
-#historyPara1 {
-    max-width: 75%;
-    display: block;
-    margin: auto auto auto auto;
-    line-height: 1.5rem;
+.carousel-inner {
+    border-radius: 1rem;
+    border-top: .4375rem;
+    border-left: .4375rem;
+    border-right: .4375rem;
+    border-bottom: .4375rem;
+    border-color: #424e75;
+    border-style: solid;
+    box-shadow: .625rem .625rem .5rem rgba(0, 0, 0, 0.5);
 }
 
-#historyPara2 {
-    max-width: 95%;
-    display: block;
-    margin: auto auto auto auto;
-}
-
-#imageSection1 {
-    background-color: #cad8e4;
-}
-
-nav, nav#fixed {
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    position: sticky;
-    top:0;
-}
-
-nav#retro {
-    border-radius: 0rem;
-    background-image: url(../Images/brick-texture-gradient.png);
-    background-size: 6rem;
-    position: sticky;
-    top:0;
-}
-nav#retro > div > a#navbar-retro {
-    color: #FF4B8E;
-    text-shadow: 0rem 0rem 0.7rem rgba(255, 75, 142, 1);
-}
-
-body#retro {
-    background-image: url(../Images/arcade-carpet.png);
-    color: white;
-}
-
-div#retro {
-    background-color: #323232;
-    color: white;
-}
-
-h3#retro1 {
-    color: #FF4B8E;
-    text-shadow: 0rem 0rem 0.7rem rgba(255, 75, 142, 1);
-    font-family: Neon;
-    font-size: 300%;
-    /*margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 21.5rem;
-    background-color: rgba(255, 75, 141, 0.356);*/
-}
-
-h3#retro2 {
-    color: #00ff4c;
-    text-shadow: 0rem 0rem 0.9rem rgba(0, 255, 76, 1);
-    font-family: Neon;
-    font-size: 300%;
-}
-
-#neon1 {
-    color: #FF4B8E;
-    text-shadow: 0rem 0rem 0.9rem rgba(255, 75, 142, 1);
-}
-
-#neon2 {
-    color: rgba(0, 255, 76, 0.3);
-}
-
-#neon3 {
-    color: rgba(61, 255, 229, 0.3);
-}
-
-#nav-text-dark{
-    color: #000;
-}
-
-.btn:disabled, .btn.disabled, fieldset:disabled .btn {
-  pointer-events: none;
-  opacity: 1;
+h2 {
+    font-family: GameCube;
 }
