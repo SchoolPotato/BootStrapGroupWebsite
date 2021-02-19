@@ -5,7 +5,7 @@ if(document.getElementsByTagName("body")[0].id == "history"){
     var headerTwo = document.getElementById("modernHeader2");
     var images = document.getElementsByClassName("float-end");
     var navbar = document.getElementsByTagName("nav")[0];
-    var footer = document.getElementsByTagName("nav")[1];
+    //var footer = document.getElementsByTagName("nav")[1];
     var logo = document.getElementById("logo");
     var navbarLink1 = document.getElementById("nav-text-dark");
     var navbarLink2 = document.getElementById("modern2");
@@ -47,7 +47,7 @@ function retroThemeHistory(){
         headerOne.id = "retro1";
         headerTwo.id = "retro2";
         navbar.id = "retro1";
-        footer.id = "retro2";
+       // footer.id = "retro2";
         logo.setAttribute("src", "Images/gamecube-logo-retro.png")
         navbarLink1.id = "neon1";
         navbarLink2.id = "neon2";
@@ -63,7 +63,7 @@ function retroThemeHistory(){
         headerOne.id = "modern1";
         headerTwo.id = "modern2";
         navbar.id = "fixed"
-        footer.id = "regular"
+        //footer.id = "regular"
         logo.setAttribute("src", "Images/gamecube-logo.png");
         navbarLink1.id = "nav-text-dark";
         navbarLink2.id = "modern2";
