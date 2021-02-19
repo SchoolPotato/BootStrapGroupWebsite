@@ -141,3 +141,8 @@ h3#retro2 {
 #nav-text-dark{
     color: #000;
 }
+
+.btn:disabled, .btn.disabled, fieldset:disabled .btn {
+  pointer-events: none;
+  opacity: 1;
+}
