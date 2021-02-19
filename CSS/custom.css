@@ -4,42 +4,7 @@
 }
 @font-face {
     font-family: Neon;
-    src: url(Fonts/NEON____.TTF);
-}
-
-.gamecube {
-    font-family: GameCube;
-}
-
-.gamecube-history-logo {
-    margin-top: 1rem;
-    max-width: 10rem;
-}
-
-.centered-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p {
-    color: black;
-    font-size: 1.2rem;
-}
-
-.carousel-inner {
-    border-radius: 1rem;
-    border-top: .4375rem;
-    border-left: .4375rem;
-    border-right: .4375rem;
-    border-bottom: .4375rem;
-    border-color: #424e75;
-    border-style: solid;
-    box-shadow: .625rem .625rem .5rem rgba(0, 0, 0, 0.5);
-}
-
-h2 {
-    font-family: GameCube;
+    src: url(Fonts/NEON____.ttf);
 }
 
 .gamecube {
@@ -112,15 +77,19 @@ h2 {
     background-color: #cad8e4;
 }
 
-nav {
+nav, nav#fixed {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    position: sticky;
+    top:0;
 }
 
 nav#retro {
     border-radius: 0rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0)), url(../Images/brick-texture.png);
     background-size: 6rem;
+    position: sticky;
+    top:0;
 }
 nav#retro > div > a#navbar-retro {
     color: #FF4B8E;
@@ -162,13 +131,13 @@ h3#retro2 {
 }
 
 #neon2 {
-    color: rgba(0, 255, 76, 0.5);
+    color: rgba(0, 255, 76, 0.3);
 }
 
 #neon3 {
-    color: rgba(61, 255, 229, 0.5);
+    color: rgba(61, 255, 229, 0.3);
 }
 
 #nav-text-dark{
-    color: #000;
+    color: #000
 }
