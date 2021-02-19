@@ -13,7 +13,7 @@
     <script src="JS/javascript.js"></script>
 
     <!-- Navbar -->
-    <nav id="fixed" class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container-fluid">
           <a id="navbar-retro" class="navbar-brand" href="index.html">
             <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
@@ -28,15 +28,14 @@
           </div>
         </div>
       </nav>
-
-      <img class="centered-image gamecube-history-logo" src="Images/gamecube-logo.png">
     
     <div class="container-fluid">
+        <img class="centered-image gamecube-history-logo p-2" src="Images/gamecube-logo.png">
         <div class="row">
             <div class="col-sm">
                 <!-- Image Carousel -->
                 <div id="gamecubeCarousel" class="carousel carousel-dark slide" data-bs-ride="false" >
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" id="carouselInner">
                         <div class="carousel-item active">
                             <img src="Images/gc1.jpg" class="d-block w-100" alt="gamecube">
                         </div>
@@ -62,7 +61,7 @@
                             <img src="Images/gc8.jpeg" class="d-block w-100" alt="gamecube">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="prev" onclick="slideText(1)">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
@@ -75,14 +74,12 @@
 
             <div class="col-md">
                 <!-- Text under the Carousel -->
-                <h2>THE GAMECUBE</h2><hr>
-                <p class="text-left">
-                    The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and the successor to their previous console, the Nintendo 64. The GameCube competed with Sony's PlayStation 2 and Microsoft's Xbox.
-                </p>
-                <p class="text-left">
-                    The GameCube is the first Nintendo console to use optical discs as its primary storage medium. The discs are in a miniDVD-based format but the system was not designed to play full-sized DVDs or audio CDs unlike its competitors, and mainly focused on gaming instead. The console supports limited online gaming for a small number of games via a GameCube broadband or modem adapter and can connect to a Game Boy Advance with a link cable, which allows players to access exclusive in-game features using the handheld as a second screen and controller like a Wii U.
-                </p>
-                <p class="text-left">
+                <h2 class="gamecube">THE GAMECUBE</h2><hr>
+                <p class="text-left" id="galleryText">
+                    The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and the successor to their previous console, the Nintendo 64. The GameCube competed with Sony's PlayStation 2 and Microsoft's Xbox.<br><br>
+
+                    The GameCube is the first Nintendo console to use optical discs as its primary storage medium. The discs are in a miniDVD-based format but the system was not designed to play full-sized DVDs or audio CDs unlike its competitors, and mainly focused on gaming instead. The console supports limited online gaming for a small number of games via a GameCube broadband or modem adapter and can connect to a Game Boy Advance with a link cable, which allows players to access exclusive in-game features using the handheld as a second screen and controller like a Wii U.<br><br>
+
                     Reception of the GameCube was generally positive. The console was praised for its controller, extensive software library and high-quality games, but was criticized for its exterior design and lack of features. Nintendo sold 21.74 million GameCube units worldwide before the console was discontinued in 2007. Its successor, the Wii, was released in November 2006.
                 </p>
             </div>
