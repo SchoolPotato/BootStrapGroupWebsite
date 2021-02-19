@@ -42,15 +42,6 @@ h2 {
     font-family: GameCube;
 }
 
-@font-face {
-    font-family: GameCube;
-    src: url(Fonts/GamecubenDualset-L85D.ttf);
-}
-@font-face {
-    font-family: Neon;
-    src: url(Fonts/NEON____.ttf);
-}
-
 .gamecube {
     font-family: GameCube;
 }
