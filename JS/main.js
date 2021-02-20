@@ -4,14 +4,12 @@ if(document.getElementsByTagName("body")[0].id == "history"){
     var headerOne = document.getElementById("modernHeader1");
     var headerTwo = document.getElementById("modernHeader2");
     var images = document.getElementsByClassName("float-end");
-    var navbar = document.getElementsByTagName("nav")[0];
-    //var footer = document.getElementsByTagName("nav")[1];
+    var navbar = document.getElementsByTagName("nav");
     var logo = document.getElementById("logo");
     var navbarLink1 = document.getElementById("nav-text-dark");
     var navbarLink2 = document.getElementById("modern2");
     var navbarLink3 = document.getElementById("modern3");
-    var gamecubeText1 = document.getElementById("modern-gamecube1");
-    var gamecubeText2 = document.getElementById("modern-gamecube2");
+    var gamecubeText = document.getElementsByClassName("gamecube");
 }
 //Get all the elements I want to change on the Home page
 if(document.getElementsByTagName("body")[0].id == "home"){
@@ -46,33 +44,35 @@ function retroThemeHistory(){
         body.id = "retro";
         headerOne.id = "retro1";
         headerTwo.id = "retro2";
-        navbar.id = "retro1";
-       // footer.id = "retro2";
+        navbar[0].id = "retro1";
+        navbar[1].id = "retro2";
         logo.setAttribute("src", "Images/gamecube-logo-retro.png")
         navbarLink1.id = "neon1";
         navbarLink2.id = "neon2";
         navbarLink3.id = "neon3";
-        gamecubeText1.id = "retro-gamecube1";
-        gamecubeText2.id = "retro-gamecube2";
         
         for(i=0; i<images.length; i++){
             images[i].id="retro";
+        }
+        for(i=0; i<gamecubeText.length; i++){
+            gamecubeText[i].id="retro-gamecube1";
         }
     } else {
         body.id = "modern";
         headerOne.id = "modern1";
         headerTwo.id = "modern2";
-        navbar.id = "fixed"
-        //footer.id = "regular"
+        navbar[0].id = "fixed"
+        navbar[1].id = "regular"
         logo.setAttribute("src", "Images/gamecube-logo.png");
         navbarLink1.id = "nav-text-dark";
         navbarLink2.id = "modern2";
         navbarLink3.id = "modern3";
-        gamecubeText1.id = "modern-gamecube1";
-        gamecubeText2.id = "modern-gamecube2";
 
         for(i=0; i<images.length; i++){
             images[i].id="imageSection1";
+        }
+        for(i=0; i<gamecubeText.length; i++){
+            gamecubeText[i].id="modern-gamecube1";
         }
     }
 }
