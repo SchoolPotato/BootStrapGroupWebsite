@@ -162,3 +162,11 @@ h3#retro2 {
 #nav-text-dark{
     color: #000
 }
+
+.border-theme {
+    border-color: #424e75;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
