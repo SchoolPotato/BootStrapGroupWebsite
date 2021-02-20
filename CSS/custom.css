@@ -1,13 +1,13 @@
 @font-face {
     font-family: GameCube;
-    src: url(Fonts/GamecubenDualset-L85D.ttf);
+    src: url(../Fonts/GamecubenDualset-L85D.ttf);
 }
 @font-face {
     font-family: Neon;
-    src: url(Fonts/NEON____.ttf);
+    src: url(../Fonts/NEON____.TTF);
 }
 
-.gamecube {
+.gamecube, .gamecube-header {
     font-family: GameCube;
 }
 
@@ -99,7 +99,7 @@ nav#retro1 {
     position: sticky;
     top:0;
 }
-nav#retro > div > a#navbar-retro {
+nav#retro div a#navbar-retro {
     color: #FF4B8E;
     text-shadow: 0rem 0rem 0.7rem rgba(255, 75, 142, 1);
 }
@@ -115,6 +115,9 @@ nav#retro2 {
     background-size: 6rem;
     position: sticky;
     top:0;
+}
+nav#retro2 div div a {
+    color: white;
 }
 
 body#retro {
