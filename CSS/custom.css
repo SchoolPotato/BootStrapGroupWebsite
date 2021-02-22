@@ -172,4 +172,13 @@ h3#retro2 {
 
 .shadow-lg {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-  }
+}
+
+.specs-title {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
