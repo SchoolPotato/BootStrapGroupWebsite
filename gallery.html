@@ -8,29 +8,28 @@
     <link href="CSS/custom.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="Images/gamecube-favicon.png">
 </head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="JS/javascript.js"></script>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
-        <div class="container-fluid">
-          <a id="navbar-retro" class="navbar-brand" href="index.html">
-            <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
-            <span class="gamecube">GAMECUBE</span>
-        </a>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="history.html">History</a>
-              <a class="nav-link fs-5" id="nav-text-dark" href="gallery.html">Gallery</a>
-            </div>
+<body id="gallery">
+    <nav id="fixed" class="navbar navbar-expand-lg navbar-light bg-light shadow">
+      <div class="container-fluid">
+        <a id="navbar-retro" class="navbar-brand" href="index.html">
+          <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
+          <span class="gamecube" id="modern-gamecube1">GAMECUBE</span>
+      </a>
+        <div class="navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a id="modern2" class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a id="modern3" class="nav-link" href="history.html">History</a>
+            <a id="nav-text-dark" class="nav-link fs-5 text-black" href="gallery.html">Gallery</a>
           </div>
+          <form class="container-fluid justify-content-start">
+            <button class="btn btn-outline-success me-2" type="button" onclick="retroThemeGallery();">Theme Toggle</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     
-    <div class="container-fluid">
-        <img class="centered-image gamecube-history-logo p-2" src="Images/gamecube-logo.png">
+    <div class="container-fluid mb-5">
+        <img id="logo" class="centered-image gamecube-history-logo p-2" src="Images/gamecube-logo.png">
         <div class="row">
             <div class="col-sm">
                 <!-- Image Carousel -->
@@ -74,7 +73,7 @@
 
             <div class="col-md">
                 <!-- Text under the Carousel -->
-                <h2 class="gamecube">THE GAMECUBE</h2><hr>
+                <h2 id="modern-header" class="gamecube">THE GAMECUBE</h2><hr>
                 <p class="text-left" id="galleryText">
                     The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and the successor to their previous console, the Nintendo 64. The GameCube competed with Sony's PlayStation 2 and Microsoft's Xbox.<br><br>
 
@@ -87,56 +86,58 @@
     </div>
 
     <footer>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-              <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
-              <span class="gamecube">GAMECUBE</span>
+      <nav id="regular" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="Images/gamecube-logo.png" alt="" width="39.69" height="45.72" class="d-inline-block align-middle">
+            <span class="gamecube">GAMECUBE</span>
+        </a>
+          <div class="col-sm-3 text-center">
+          <a class="nav-link fs-5" id="nav-text-dark" href="#">
+            Follow us on Social Media!
           </a>
-            <div class="col-sm-3 text-center">
+          <button type="button" class="btn theme-button">
+            Instagram
+          </button>
+          <button type="button" class="btn theme-button">
+            Twitter
+          </button>
+          <button type="button" class="btn theme-button">
+            Facebook
+          </button>
+          </div>
+          <div class="col-sm-3 text-center">
             <a class="nav-link fs-5" id="nav-text-dark" href="#">
-              Follow us on Social Media!
+              About Us
             </a>
             <button type="button" class="btn theme-button">
-              Instagram
+              Creators
             </button>
             <button type="button" class="btn theme-button">
-              Twitter
+              Location
             </button>
             <button type="button" class="btn theme-button">
-              Facebook
+              Products
             </button>
             </div>
             <div class="col-sm-3 text-center">
               <a class="nav-link fs-5" id="nav-text-dark" href="#">
-                About Us
+                Pages
               </a>
-              <button type="button" class="btn theme-button">
-                Creators
-              </button>
-              <button type="button" class="btn theme-button">
-                Location
-              </button>
-              <button type="button" class="btn theme-button">
-                Products
-              </button>
+              <a type="button" class="btn theme-button" href="index.html">
+                Home
+              </a>
+              <a type="button" class="btn theme-button" href="history.html">
+                History
+              </a>
+              <a type="button" class="btn theme-button" href="gallery.html">
+                Gallery
+              </a>
               </div>
-              <div class="col-sm-3 text-center">
-                <a class="nav-link fs-5" id="nav-text-dark" href="#">
-                  Pages
-                </a>
-                <a type="button" class="btn theme-button" href="index.html">
-                  Home
-                </a>
-                <a type="button" class="btn theme-button" href="history.html">
-                  History
-                </a>
-                <a type="button" class="btn theme-button" href="gallery.html">
-                  Gallery
-                </a>
-                </div>
-          </div>
-        </nav>
-      </footer>
+        </div>
+      </nav>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <script src="JS/main.js"></script>
 </body>
 </html>
