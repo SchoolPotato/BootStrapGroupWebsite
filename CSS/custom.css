@@ -212,3 +212,24 @@ h5#retro {
 div#brick-texture ul li {
     color: black;
 }
+
+.specs-title {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Gallery Page CSS*/
+#carouselInner {
+    box-shadow: .3125rem .625rem .5rem rgba(0, 0, 0, .4);
+    border-radius: 1rem;
+}
+.caption {
+    color: black;
+}
+#caption {
+    background-color: rgba(175, 175, 175, .7);
+}
