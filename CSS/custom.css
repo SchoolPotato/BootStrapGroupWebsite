@@ -7,6 +7,10 @@
     src: url(../Fonts/NEON____.TTF);
 }
 
+* {
+    box-sizing: content-box;
+  }
+
 .gamecube, .gamecube-header {
     font-family: GameCube;
 }
@@ -186,7 +190,7 @@ h3#retro2 {
 
 #brick-texture {
     background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0)), url(../Images/brick-texture.png);
-    background-size: 6rem;
+    background-size: 9.2rem;
     color: white;
 }
 div#brick-texture h5#retro1 {
@@ -220,6 +224,18 @@ div#brick-texture ul li {
 
 a {
   text-decoration: none;
+}
+
+#anchorLink {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+#anchorLink:hover {
+    color: lightblue;
+}
+#anchorLink:visited {
+    color: #FF4B8E;
 }
 
 /*Gallery Page CSS*/
