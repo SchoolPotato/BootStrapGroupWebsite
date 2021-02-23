@@ -23,6 +23,7 @@ if(document.getElementsByTagName("body")[0].id == "home"){
     var navbar = document.getElementsByTagName("nav");
     var logo = document.getElementById("logo");
     var cards = [document.getElementById("card1"), document.getElementById("card2"), document.getElementById("card3"), document.getElementById("card4")];
+    var listItems = [document.getElementById("list1"), document.getElementById("list2"), document.getElementById("list3"), document.getElementById("list4"), document.getElementById("list5"), document.getElementById("list6"), document.getElementById("list7")];
     var specsHeader = document.getElementById("normal");
 }
 // Get all the elements I want to change on the Gallery page
@@ -137,6 +138,12 @@ function retroThemeHome(){
         for(i=0; i<cards.length; i++){
             cards[i].id="brick-texture"
         }
+
+        listItems[0].id = "brick-gradient-top";
+        listItems[listItems.length-1].id = "brick-gradient-bottom";
+        for(i=1; i<listItems.length-1; i++){
+            listItems[i].id="brick-gradient-middle"
+        }
     } else {
         body.id = "modern";
         navbar[0].id = "fixed"
@@ -154,6 +161,10 @@ function retroThemeHome(){
 
         for(i=0; i<cards.length; i++){
             cards[i].id="no-texture"
+        }
+
+        for(i=0; i<listItems.length; i++){
+            listItems[i].id="no-texture"
         }
     }
 }

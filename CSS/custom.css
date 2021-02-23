@@ -182,7 +182,23 @@ h3#retro2 {
 
 .shadow-lg {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-  }
+}
+
+#brick-gradient-top {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0)), url(../Images/brick-texture-dark.png);
+    background-size: 5.2rem;
+    color: white;
+}
+#brick-gradient-middle {
+    background-image: url(../Images/brick-texture-dark.png);
+    background-size: 5.2rem;
+    color: white;
+}
+#brick-gradient-bottom {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0)), url(../Images/brick-texture-dark.png);
+    background-size: 5.2rem;
+    color: white;
+}
 
 #brick-texture {
     background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0)), url(../Images/brick-texture.png);
@@ -231,6 +247,10 @@ a {
     color: lightblue;
 }
 #anchorLink:visited {
+    color: #424e75
+}
+
+body#retro #anchorLink:visited {
     color: #FF4B8E;
 }
 
