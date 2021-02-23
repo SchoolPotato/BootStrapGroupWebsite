@@ -7,10 +7,6 @@
     src: url(../Fonts/NEON____.TTF);
 }
 
-* {
-    box-sizing: content-box;
-  }
-
 .gamecube, .gamecube-header {
     font-family: GameCube;
 }
