@@ -22,7 +22,7 @@ if(document.getElementsByTagName("body")[0].id == "home"){
     var navbarLink3 = document.getElementById("modern3");
     var navbar = document.getElementsByTagName("nav");
     var logo = document.getElementById("logo");
-    var cards = [document.getElementById("card1"), document.getElementById("card2"), document.getElementById("card3")];
+    var cards = [document.getElementById("card1"), document.getElementById("card2"), document.getElementById("card3"), document.getElementById("card4")];
     var specsHeader = document.getElementById("normal");
 }
 // Get all the elements I want to change on the Gallery page
